@@ -7,7 +7,7 @@ class TestDog:
 
     def test_is_class(self):
         '''is a class with the name "Dog"'''
-        fido = Dog("Fido")
+        fido = Dog("Fido", "Dalmatian")
         assert(type(fido) == Dog)
 
 class TestInit:
